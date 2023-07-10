@@ -516,21 +516,7 @@ dict_models = {'Regresión lineal': linear_regression, 'Regresión lineal normal
 
 # ### Predicción
 
-# Para selecionar directamente el modelo y que se ejecute con ese, ejecutamos la siguiente celda
-
-# In[257]:
-
-
-# select_model = input('¿Qué modelo deseas probar? \n Opciones: \n a: Regresión lineal \n b: Regresión lineal normalizada \n')
-
-
 # In[56]:
-
-
-# if select_model == 'a':
-#     model_name = 'Regresión lineal'
-# if select_model == 'b':
-#     model_name = 'Regresión lineal normalizada'
    
 
 def forecast(df, model_name, X_train, y_train, X_test, y_test, results, order=None, seasonal_order=None):
